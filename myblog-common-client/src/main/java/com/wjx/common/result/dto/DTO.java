@@ -1,4 +1,4 @@
-package com.wjx.common.dto;
+package com.wjx.common.result.dto;
 
 import java.io.Serializable;
 

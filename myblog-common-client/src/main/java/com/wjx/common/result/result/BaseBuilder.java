@@ -1,4 +1,4 @@
-package com.wjx.common.builder;
+package com.wjx.common.result.result;
 
 import java.io.Serializable;
 

@@ -1,7 +1,7 @@
-package com.wjx.common.result;
+package com.wjx.common.result.result;
 
-import com.wjx.common.builder.BaseBuilder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 
@@ -13,6 +13,7 @@ public class ApiResult<T extends Serializable> implements Serializable {
     private String errorInfo = "";
     private T result;
 
+    @EqualsAndHashCode(callSuper = true)
     @Data
     public static class Builder<D extends Serializable> extends BaseBuilder<Builder<D>, ApiResult<D>> {
         private int errorNo;

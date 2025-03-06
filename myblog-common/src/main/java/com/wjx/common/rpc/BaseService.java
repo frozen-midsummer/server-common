@@ -1,6 +1,7 @@
 package com.wjx.common.rpc;
 
-import com.wjx.common.result.ApiResult;
+
+import com.wjx.common.result.result.ApiResult;
 
 import java.io.Serializable;
 import java.util.ArrayList;
